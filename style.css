@@ -685,8 +685,10 @@ header i {
     margin-bottom: 41px;
   }
   .add__to__cart {
-    width: 137px;
+    width: auto;
     height: 42px;
+    font-size: 14px;
+    line-height: 16px;
   }
   .add__to__cart img {
     width: 25px;
