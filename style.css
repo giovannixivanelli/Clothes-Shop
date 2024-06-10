@@ -603,7 +603,7 @@ header i {
     gap: 305px;
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 425px) {
   .dropdown {
     display: flex;
     justify-content: start;
