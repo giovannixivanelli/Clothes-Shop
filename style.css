@@ -606,7 +606,7 @@ header i {
 @media (max-width: 426px) {
   .dropdown {
     display: flex;
-    justify-content: end;
+    justify-content: start;
     width: 100%;
   }
   .center {
