@@ -603,6 +603,145 @@ header i {
     gap: 305px;
   }
 }
+@media (max-width: 425px) {
+  .dropdown {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 232px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 33px;
+  }
+
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header__sign__in {
+    display: none;
+  }
+  .header__shopping__cart {
+    display: none;
+  }
+  .page__header {
+  }
+  .welcome__image__container {
+    display: none;
+  }
+  .welcome__container {
+    height: 363px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .welcome__container__title {
+    width: 263px;
+    height: 66px;
+  }
+  .pink__bar {
+    width: 12px;
+    height: 66px;
+  }
+  .brand {
+    color: rgb(34, 34, 34);
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 45px;
+  }
+  .welcome__title {
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .fashion {
+    font-size: 20px;
+  }
+  .catalog {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 64px;
+  }
+  .accesories {
+    width: 100%;
+  }
+  .featured__items {
+    text-align: center;
+  }
+  .featured__items__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-bottom: 41px;
+  }
+  .add__to__cart {
+    width: auto;
+    height: 42px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .add__to__cart img {
+    width: 25px;
+    height: 23px;
+  }
+  .browse__products__button {
+    margin-bottom: 85px;
+  }
+  .our__advantages {
+    display: flex;
+    flex-direction: column;
+  }
+  .advantages__text {
+    padding-bottom: 46px;
+  }
+  .subscribe {
+    display: flex;
+    height: 550px;
+    width: 100%;
+  }
+  .persons_quote {
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 59px;
+  }
+  .subscribe__word {
+    line-height: 36px;
+  }
+  .subscription__text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .subscription_image {
+  }
+  .subscribe__background {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .reserved__rights {
+    margin-top: 40px;
+  }
+  .footer__bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0px;
+    padding-bottom: 9px;
+  }
+  .networks {
+    margin-top: 43px;
+  }
+}
+
 @media (max-width: 376px) {
   .dropdown {
     display: flex;
