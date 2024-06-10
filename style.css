@@ -617,7 +617,12 @@ header i {
     padding-left: 32px;
     padding-right: 32px;
   }
-
+  .header__sign__in {
+    display: none;
+  }
+  .header__shopping__cart {
+    display: none;
+  }
   .welcome__image__container {
     display: none;
   }
